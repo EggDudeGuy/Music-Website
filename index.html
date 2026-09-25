@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CHRISS — independent electronic music.">
+  <title>CHRISS // MUSIC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines"></div>
+
+  <header class="topbar">
+    <a class="logo" href="#home">CHRISS<span>_</span></a>
+    <nav>
+      <a href="#music">MUSIC</a>
+      <a href="#about">ABOUT</a>
+      <a href="#links">LINKS</a>
+    </nav>
+    <div class="status"><span class="status-dot"></span> ONLINE</div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <p class="eyebrow">/// INDEPENDENT ELECTRONIC ARTIST</p>
+        <h1>CHRISS</h1>
+        <p class="tagline">SOUNDS FROM SOMEWHERE BETWEEN<br>THE PAST AND THE FUTURE.</p>
+        <a class="button" href="#music">ENTER THE ARCHIVE <span>→</span></a>
+      </div>
+      <div class="hero-code">
+        <span>SYS.001</span>
+        <span>44.1KHZ</span>
+        <span>STEREO</span>
+      </div>
+    </section>
+
+    <section class="section" id="music">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">/// AUDIO ARCHIVE</p>
+          <h2>RECENT TRANSMISSIONS</h2>
+        </div>
+        <span class="section-number">01 / 03</span>
+      </div>
+
+      <div class="player">
+        <div class="player-art">
+          <div class="art-inner">CHRISS</div>
+        </div>
+        <div class="player-info">
+          <p class="track-label">NOW SELECTED</p>
+          <h3 id="trackTitle">NIGHT DRIVE</h3>
+          <p id="trackMeta">DEMO 001 // 2026</p>
+
+          <div class="progress-wrap">
+            <div class="progress-bar"><div id="progress"></div></div>
+            <div class="time"><span id="currentTime">0:00</span><span id="duration">0:00</span></div>
+          </div>
+
+          <div class="controls">
+            <button id="prevBtn" aria-label="Previous track">◀◀</button>
+            <button id="playBtn" class="play" aria-label="Play">▶</button>
+            <button id="nextBtn" aria-label="Next track">▶▶</button>
+            <div class="volume">
+              <span>VOL</span>
+              <input id="volume" type="range" min="0" max="1" step="0.01" value="0.8">
+            </div>
+          </div>
+          <p class="hint">Add your MP3 files to the <code>audio</code> folder.</p>
+        </div>
+      </div>
+
+      <div class="tracklist" id="tracklist"></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">/// FILE 002</p>
+          <h2>ABOUT CHRISS</h2>
+        </div>
+      </div>
+      <div class="about-grid">
+        <p class="big-copy">ELECTRONIC MUSIC, BUILT<br>ONE SOUND AT A TIME.</p>
+        <div class="about-text">
+          <p>CHRISS is an independent music project focused on electronic sounds, atmosphere, rhythm, and experimentation.</p>
+          <p>This space is an evolving archive for tracks, ideas, releases, and whatever comes next.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section links" id="links">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">/// CONNECT</p>
+          <h2>FIND CHRISS</h2>
+        </div>
+      </div>
+      <div class="link-grid">
+        <a href="#" class="link-card"><span>BANDLAB</span><b>↗</b></a>
+        <a href="#" class="link-card"><span>YOUTUBE</span><b>↗</b></a>
+        <a href="#" class="link-card"><span>SPOTIFY</span><b>↗</b></a>
+        <a href="#" class="link-card"><span>INSTAGRAM</span><b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>CHRISS © 2026</span>
+    <span>END OF TRANSMISSION_</span>
+  </footer>
+
+  <audio id="audio"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
