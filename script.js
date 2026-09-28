@@ -2,7 +2,7 @@ const tracks = [
   {
     title: "Continum1",
     meta: "001 // 2026",
-    src: "Continum_1.mp3"
+    src: "audio/Continum_1.mp3"
   },
   {
     title: "SIGNAL LOSS",
