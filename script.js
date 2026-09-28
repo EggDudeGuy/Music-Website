@@ -1,57 +1,37 @@
 const tracks = [
   {
-    title: "Finisht",
-    meta: "001 // STRESS",
-    src: "audio/Finisht.mp3"
-  },
-  {
     title: "STRESS",
-    meta: "002 // STRESS",
+    meta: "001 // STRESS",
     src: "audio/Stress.mp3"
   },
   {
-    title: "DooDoo",
-    meta: "003 // STRESS",
-    src: "audio/DooDoo.mp3"
-  },
-  {
     title: "The Stuff",
-    meta: "004 // STRESS",
+    meta: "002 // STRESS",
     src: "audio/The_Stuff.mp3"
   },
   {
     title: "GS",
-    meta: "005 // STRESS",
+    meta: "003 // STRESS",
     src: "audio/GS.mp3"
   },
   {
-    title: "Scot",
-    meta: "006 // STRESS",
-    src: "audio/Scot.mp3"
-  },
-  {
-    title: "1234567890",
-    meta: "007 // STRESS",
-    src: "audio/1234567890.mp3"
-  },
-  {
     title: "Continum1",
-    meta: "008 // STRESS",
+    meta: "004 // STRESS",
     src: "audio/Continum_1.mp3"
   },
   {
     title: "Continum2",
-    meta: "009 // STRESS",
+    meta: "005 // STRESS",
     src: "audio/Continum_2.mp3"
   },
   {
     title: "Homeless",
-    meta: "010 // STRESS",
+    meta: "006 // STRESS",
     src: "audio/Homeless.mp3"
   },
   {
     title: "GoodBy",
-    meta: "011 // STRESS",
+    meta: "007 // STRESS",
     src: "audio/GoodBy.m4a"
   }
 ];
