@@ -33,5 +33,6 @@ GitHub Pages should then publish `index.html` as the site.
 
 ## Social links
 
-The BandLab, YouTube, Spotify, and Instagram buttons currently use `#`.
-Replace those values in `index.html` with your real profile URLs.
+The BandLab, YouTube, Spotify, and Instagram buttons link to their respective
+platforms. Replace those URLs in `index.html` with your profile URLs when they
+are available.
