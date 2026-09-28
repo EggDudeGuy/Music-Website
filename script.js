@@ -13,6 +13,46 @@ const tracks = [
     title: "AFTERIMAGE",
     meta: "DEMO 003 // 2026",
     src: "audio/afterimage.mp3"
+  },
+  {
+    title: "Continum1",
+    meta: "001 // 2026",
+    src: "audio/Continum_1.mp3"
+  },
+  {
+    title: "SIGNAL LOSS",
+    meta: "002 // 2026",
+    src: "audio/signal-loss.mp3"
+  },
+  {
+    title: "AFTERIMAGE",
+    meta: "DEMO 003 // 2026",
+    src: "audio/afterimage.mp3"
+  },
+  {
+    title: "Continum1",
+    meta: "001 // 2026",
+    src: "audio/Continum_1.mp3"
+  },
+  {
+    title: "SIGNAL LOSS",
+    meta: "002 // 2026",
+    src: "audio/signal-loss.mp3"
+  },
+  {
+    title: "AFTERIMAGE",
+    meta: "DEMO 003 // 2026",
+    src: "audio/afterimage.mp3"
+  },
+  {
+    title: "Continum1",
+    meta: "001 // 2026",
+    src: "audio/Continum_1.mp3"
+  },
+  {
+    title: "SIGNAL LOSS",
+    meta: "002 // 2026",
+    src: "audio/signal-loss.mp3"
   }
 ];
 
