@@ -1,12 +1,12 @@
 const tracks = [
   {
-    title: "NIGHT DRIVE",
-    meta: "DEMO 001 // 2026",
-    src: "audio/night-drive.mp3"
+    title: "Continum1",
+    meta: "001 // 2026",
+    src: "Continum_1.mp3"
   },
   {
     title: "SIGNAL LOSS",
-    meta: "DEMO 002 // 2026",
+    meta: "002 // 2026",
     src: "audio/signal-loss.mp3"
   },
   {
