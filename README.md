@@ -11,13 +11,18 @@ This folder is ready to upload to a GitHub repository.
 
 ## Add music
 
-Put these files in the `audio` folder:
+The player is configured to use the playable files already in `audio/`:
 
-- `night-drive.mp3`
-- `signal-loss.mp3`
-- `afterimage.mp3`
+- `Stress.mp3`
+- `The_Stuff.mp3`
+- `GS.mp3`
+- `Continum_1.mp3`
+- `Continum_2.mp3`
+- `Homeless.mp3`
+- `GoodBy.m4a`
 
-Or edit the filenames in `script.js`.
+When adding a release, upload a complete audio file to `audio/` and add its
+exact filename to the `tracks` array in `script.js`.
 
 ## GitHub Pages
 
@@ -33,5 +38,6 @@ GitHub Pages should then publish `index.html` as the site.
 
 ## Social links
 
-The BandLab, YouTube, Spotify, and Instagram buttons currently use `#`.
-Replace those values in `index.html` with your real profile URLs.
+The BandLab, YouTube, Spotify, and Instagram buttons link to their respective
+platforms. Replace those URLs in `index.html` with your profile URLs when they
+are available.
