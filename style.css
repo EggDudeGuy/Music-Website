@@ -216,11 +216,13 @@ h1 {
 }
 
 .player-art {
-  min-height: 280px;
+  width: min(280px, 100%);
+  aspect-ratio: 1 / 1;
   position: relative;
   overflow: hidden;
   background: #23211f;
   border-right: 1px solid var(--line);
+  margin: auto;
 }
 
 .player-art img {
