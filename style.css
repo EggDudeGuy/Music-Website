@@ -216,10 +216,8 @@ h1 {
 }
 
 .player-art {
+  min-height: 280px;
   position: relative;
-  width: 100%;
-  aspect-ratio: 1;
-  align-self: start;
   overflow: hidden;
   background: #23211f;
   border-right: 1px solid var(--line);
@@ -229,6 +227,7 @@ h1 {
   display: block;
   width: 100%;
   height: 100%;
+  min-height: 280px;
   object-fit: cover;
   object-position: center;
 }
@@ -416,7 +415,8 @@ footer {
   .hero { padding-left: 7vw; }
   .hero-code { display: none; }
   .player { grid-template-columns: 1fr; }
-  .player-art { border-right: 0; border-bottom: 1px solid var(--line); }
+  .player-art { min-height: 220px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .player-art img { min-height: 220px; }
   .about-grid { grid-template-columns: 1fr; gap: 30px; }
   .link-grid { grid-template-columns: 1fr; }
   .section { padding: 80px 0; }
